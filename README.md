@@ -1,3 +1,8 @@
+---
+layout: post
+title: Blogging Like a Hacker
+---
+
 ## Добро пожаловать в базу знаний telegram-группы ["SmartHome"](https://t.me/SmartsHome)
 
 В группе обсуждается домашняя автоматизация и системы IOBroker, MajorDoMo и другие.
