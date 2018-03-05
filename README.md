@@ -4,12 +4,12 @@
 
 # IOBroker:
 
-* Сайт: http://www.iobroker.net/?lang=ru
-* форум: http://forum.iobroker.de
-* Инстаграмм: https://www.instagram.com/smart_home_iobroker/
-* VK: https://vk.com/public146415000
-* Youtube: https://www.youtube.com/watch?v=BRaqGGa-Tyc
-* Telegram: https://t.me/iobroker
+* Сайт: [http://www.iobroker.net/?lang=ru](http://www.iobroker.net/?lang=ru)
+* форум: [http://forum.iobroker.de](http://forum.iobroker.de)
+* Инстаграмм: [https://www.instagram.com/smart_home_iobroker/](https://www.instagram.com/smart_home_iobroker/)
+* VK: [https://vk.com/public146415000](https://vk.com/public146415000)
+* Youtube: [https://www.youtube.com/watch?v=BRaqGGa-Tyc](https://www.youtube.com/watch?v=BRaqGGa-Tyc)
+* Telegram: [https://t.me/iobroker](https://t.me/iobroker)
 
 # MajorDoMo:
 
