@@ -1,5 +1,14 @@
 <head>
   <meta charset="UTF-8">
+  
+<!-- Open Graph -->
+<meta property="og:locale" content="en-US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Home">
+<meta property="og:description" content="A site constructed using Jekyll">
+<meta property="og:url" content="https://smartshouse.github.io/">
+<meta property="og:site_name" content="Home">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
     {% if page.title == "Home" %}
@@ -8,10 +17,6 @@
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
-  <meta property="og:title" content="title text" />
-  <meta property="og:image" content="an image url that exist in your page" />
-  <meta property="og:url" content="current page url" />
-  <meta property="og:description" content="description text" />
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
