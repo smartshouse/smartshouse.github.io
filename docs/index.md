@@ -2,7 +2,8 @@
 
 В группе обсуждается домашняя автоматизация и системы IOBroker, MajorDoMo и другие.
 
-{% include test.md %}
+{% capture my_include %}{% include test.md %}{% endcapture %}
+{{ my_include | markdownify }}
 
 # IOBroker:
 
