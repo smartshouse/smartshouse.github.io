@@ -1,37 +1,27 @@
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="author" content="Yura Zatsepin" />
-  <meta name="description" content="Writings and talks by Yura Zatsepin. Yura founder TotalLicks.com." />  
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ site.title | default: site.github.repository_name }}">
+    <meta name="twitter:description" content="{{ site.description | default: site.github.project_tagline }}">
 
-<!-- Twitter Cards -->
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Home">
-<meta name="twitter:description" content="A site constructed using Jekyll">
-  
-<!-- Open Graph -->
-<meta property="og:locale" content="en-US">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Home">
-<meta property="og:description" content="A site constructed using Jekyll">
-<meta property="og:url" content="https://smartshouse.github.io/">
-<meta property="og:site_name" content="Home">
+    <!-- Open Graph -->
+    <meta property="og:locale" content="{{ site.lang | default: "en-US" }}">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ site.title | default: site.github.repository_name }}">
+    <meta property="og:description" content="{{ site.description | default: site.github.project_tagline }}">
+    <meta property="og:url" content="https://smartshome.github.io/">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  </title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon-32x32.png" | relative_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon-16x16.png" | relative_url }}">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/apple-touch-icon.png" | relative_url }}">
+    <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico?" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_8v3czwksspqlg14i.css">
+    <link rel="stylesheet" href="{{ "/css/main.css " | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml " | prepend: site.baseurl | prepend: site.url }}">
 </head>
