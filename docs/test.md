@@ -1,8 +1,10 @@
 ## Тестирование
 
+Это Markdown
+
 <details>
 <summary>
-## My test!
+## это кусочек HTML, тут другая размертка
 </summary>
 
 * Elem1
