@@ -2,3 +2,6 @@
 layout: base
 title: "Hello"
 ---
+
+{% capture my_include %}{% include docs/test.md %}{% endcapture %}
+{{ my_include | markdownify }}
