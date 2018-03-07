@@ -4,8 +4,8 @@ layout: default
 
 <div class="page clearfix" index>
     <div class="left">
-        <h1 style="text-align: center;">欢迎光临我的博客</h1>
-        <p style="text-align: right;">【不积跬步 无以至千里】</p>
+        <h1 style="text-align: center;">Smart's Home</h1>
+        <p style="text-align: right;">База знаний по домашней автоматизации</p>
         <hr>
         <ul>
             {% for post in paginator.posts %}
@@ -71,7 +71,7 @@ layout: default
             <div class="side">
                 <div>
                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                    最近
+                    Заметки
                 </div>
                 <ul class="content-ul" recent>
                     {% for post in site.posts offset: 0 limit: 10  %}
@@ -84,7 +84,7 @@ layout: default
             <div class="side ">
                 <div>
                     <i class="fa fa-th-list"></i>
-                    目录
+                    Категории
                 </div>
                 <ul class="content-ul" cate>
                     {% for category in site.categories %}
@@ -103,7 +103,7 @@ layout: default
             <div class="side">
                 <div>
                     <i class="fa fa-tags"></i>
-                    标签
+                    Тэги
                 </div>
                 <div class="tags-cloud">
                     {% assign first = site.tags.first %}
