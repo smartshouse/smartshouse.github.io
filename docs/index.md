@@ -2,6 +2,8 @@
 
 В группе обсуждается домашняя автоматизация и системы IOBroker, MajorDoMo и другие.
 
+{% include test.md %}
+
 # IOBroker:
 
 * Сайт: http://www.iobroker.net/?lang=ru
